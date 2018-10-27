@@ -1,0 +1,13 @@
+digraph "operator&lt;&lt;"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Termino::getNumeroDefiniciones",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTermino.html#a1a26df015f982d4d1b6fc73707b28e26",tooltip="Consultor del numero de definiciones. "];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Termino::getPalabra",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTermino.html#aca7e4f7a65e39d79ce59be80c6b88690",tooltip="Consultor del atributo palabra. "];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Termino::getDefinicionPos",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTermino.html#a1fc274399889f579986cef2511ec5843",tooltip="Función para acceder a la definición de una posición concreta. "];
+}
