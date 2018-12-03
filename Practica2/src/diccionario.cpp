@@ -25,8 +25,8 @@ Diccionario::Diccionario(const Diccionario &cp){
         conjunto[i] = cp.conjunto[i];
 }
 
-string* Diccionario::getDefiniciones(int pos){
-    return conjunto[pos].getDefiniciones();
+string* Diccionario::getDefiniciones(const Termino &t){
+    return t.getDefiniciones();
 }
 
 Termino* Diccionario::getTerminos(){

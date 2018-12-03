@@ -1,9 +1,16 @@
 #ifndef DICCIONARIO
 #define DICCIONARIO
-/**
- * Pablo Cordero Romero
- * Francisco Beltrán Sánchez
- */
+/*
+"diccionario.h"
+    ** Función de abstracción:
+    ----------------------
+    fA : r ----> conjunto[numTerminos]
+
+    ** Invariante de Representación:
+    ----------------------------
+    Cualquier objeto del tipo_rep, diccionario, debe cumplir:
+    - numTerminos>=0
+*/
 
 #include <iostream>
 #include <cctype>
@@ -50,7 +57,7 @@ class Diccionario{
          * @param pos Número de la posicion del Término que contiene las definiciones
          * @return Puntero a las definiciones del Término solicitado
          */ 
-        string* getDefiniciones(int pos);
+        string* getDefiniciones(const Termino &t);
 
         /**
          * @brief Consultor de los Términos del diccionario

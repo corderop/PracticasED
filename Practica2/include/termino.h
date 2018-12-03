@@ -1,10 +1,17 @@
 #ifndef TERMINO
 #define TERMINO
 #include <iostream>
-/**
- * Pablo Cordero Romero
- * Francisco Beltrán Sánchez
- */
+/*
+"termino.h"
+    ** Función de abstracción:
+    ----------------------
+    fA : r ----> {palabra,definiciones[num_def]}
+
+    ** Invariante de Representación:
+    ----------------------------
+    Cualquier objeto del tipo_rep, termino, debe cumplir:
+    - num_def>=0
+*/
 
 using namespace std;
 /**
