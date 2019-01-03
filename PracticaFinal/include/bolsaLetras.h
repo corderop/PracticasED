@@ -24,7 +24,7 @@ using namespace std;
 class BolsaLetras{
     private:
         /**
-         * @page repConjunto Rep del TDA BolsaLetras
+         * @page repBolsaLetras Rep del TDA BolsaLetras
          * @section invConjunto Invariante de representación
          * Un objeto @e bl del TDA BolsaLetras debe cumplir:
          * - @c bl.letras.size() >= 0

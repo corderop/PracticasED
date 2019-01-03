@@ -21,7 +21,7 @@ using namespace std;
  */
 class Letra{
     /**
-     * @page repConjunto Rep del TDA Letra
+     * @page repLetra Rep del TDA Letra
      * @section invConjunto Invariante de representación
      * Un objeto @e l del TDA Letra debe cumplir:
      * - @c ( l.letra >= 'a' && l.letra <= 'z' ) || ( l.letra >= 'A' && l.letra<= 'Z' )

@@ -26,7 +26,7 @@ using namespace std;
 class ConjuntoDeLetras{
     private:
         /**
-         * @page repConjunto Rep del TDA ConjuntoDeLetras
+         * @page repConjuntoDeLetras Rep del TDA ConjuntoDeLetras
          * @section invConjunto Invariante de representación
          * Un objeto @e cl del TDA ConjuntoDeLetras debe cumplir:
          * - @c cl.letras.size() >= 0

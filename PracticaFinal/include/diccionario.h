@@ -26,7 +26,7 @@ using namespace std;
 class Diccionario{
     private:
         /**
-         * @page repConjunto Rep del TDA Diccionario
+         * @page repDiccionario Rep del TDA Diccionario
          * @section invConjunto Invariante de representación
          * Un objeto @e d del TDA Diccionario debe cumplir:
          * - @c d.datos.size() >= 0
